@@ -1,17 +1,20 @@
-* {
-    min-width: 10px;
-    margin: 3px;
-}
-
 .container-fluid {
-    max-width: 1600px;
+  max-width: 1600px;
 }
 
-.bg-primary {
-    width: 300px;
+header {
+  background-color: #F72210;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.search-container {
+  width: 200px;
 }
 
 .search {
-    background: url("../images/search.svg") no-repeat 80%;
-    background-size: 20px;
+  background: url("../images/search.svg") no-repeat 80%;
+  background-size: 20px;
 }
