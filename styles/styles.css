@@ -1,13 +1,25 @@
-.container-fluid {
-  max-width: 1600px;
+.container-xl {
+  max-width: 1310px;
 }
 
-header {
+[class*="bg-gen-red"] {
   background-color: #F72210;
 }
 
+[class*="text-gen-red"] {
+  color: #F72210;
+}
+
+.nav-menu {
+  max-width: 30px;
+}
+
+[src*="chevron"] {
+  width: 20px;
+}
+
 .logo img{
-  width: 150px;
+  width: 170px;
 }
 
 .search-container {
