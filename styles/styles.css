@@ -14,6 +14,11 @@
   max-width: 30px;
 }
 
+.header-links > * {
+  font-size: 80%;
+}
+/* change font size on >=md */
+
 [src*="chevron"] {
   width: 20px;
 }
@@ -29,4 +34,9 @@
 .search {
   background: url("../images/search.svg") no-repeat 80%;
   background-size: 20px;
+}
+
+.top-stories h6 {
+  color: #aaa;
+  font-size: 95%;
 }
