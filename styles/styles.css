@@ -60,7 +60,7 @@ a[class*="underline-none"]:hover {
   font-size: 95%;
 }
 
-[src*="uk"] + p {
+.image-label {
   background-color: rgba(255, 255, 255, 0.9);
   bottom: 0;
   left: 0;
@@ -88,4 +88,13 @@ a[class*="underline-none"]:hover {
 
 .culture-travel .label {
   background-color: #c2d4d7;
+}
+
+.sponsored-insight .image-label{
+  color: rgb(53, 129, 244);
+}
+
+.sponsored-insight + .info {
+  border-color: rgb(230, 230, 230);
+  margin-bottom: 30px;
 }
