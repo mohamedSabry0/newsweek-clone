@@ -10,6 +10,25 @@
   color: #F72210;
 }
 
+a[class*="gen-red-underline"]:hover {
+  text-decoration-color: #F72210;
+}
+
+a[class*="hover-black"]:hover {
+  color: #000;
+}
+
+a[class*="gen-red-hover"]:hover {
+  color: #F72210;
+}
+a[class*="underline-none"]:hover {
+  text-decoration: none;
+}
+
+.text-black {
+  color: #000;
+}
+
 .nav-menu {
   max-width: 30px;
 }
@@ -39,4 +58,14 @@
 .top-stories h6 {
   color: #aaa;
   font-size: 95%;
+}
+
+[src*="uk"] + p {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+}
+
+.small {
+  font-size: 12px;
 }
