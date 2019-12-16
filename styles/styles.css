@@ -55,7 +55,7 @@ a[class*="underline-none"]:hover {
   background-size: 20px;
 }
 
-.top-stories h6 {
+.section-heading {
   color: #aaa;
   font-size: 95%;
 }
@@ -67,5 +67,25 @@ a[class*="underline-none"]:hover {
 }
 
 .small {
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.grey {
+  color: rgb(51, 51, 51);
+}
+
+.light-grey {
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.more-stories img{
+  width: 33%;
+}
+
+.culture-travel {
+  background: rgb(244, 245, 247);
+}
+
+.culture-travel .label {
+  background-color: #c2d4d7;
 }
