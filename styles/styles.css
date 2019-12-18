@@ -2,31 +2,46 @@
   max-width: 1310px;
 }
 
-[class*="bg-gen-red"] {
+.w-content {
+  width: max-content;
+}
+
+.image-label {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+}
+
+.bg-gen-red {
   background-color: #F72210;
 }
 
-[class*="text-gen-red"] {
+.text-gen-red {
   color: #F72210;
 }
 
-a[class*="gen-red-underline"]:hover {
+.gen-red-underline:hover {
   text-decoration-color: #F72210;
 }
 
-a[class*="hover-black"]:hover {
+.hover-black:hover {
   color: #000;
 }
 
-a[class*="gen-red-hover"]:hover {
+.gen-red-hover-line-none:hover {
   color: #F72210;
-}
-a[class*="underline-none"]:hover {
   text-decoration: none;
 }
+/*
+ fix the color of travel section
+ */
 
-.text-black {
+ .text-black {
   color: #000;
+}
+
+header {
+  min-height: 47px;
 }
 
 .nav-menu {
@@ -38,12 +53,16 @@ a[class*="underline-none"]:hover {
 }
 /* change font size on >=md */
 
-[src*="chevron"] {
+[src*="chevron-right"] {
   width: 20px;
 }
 
+[src*="sign-chevron"] {
+  width: 10px;
+}
+
 .logo img{
-  width: 170px;
+  width: 137px;
 }
 
 .search-container {
@@ -58,12 +77,6 @@ a[class*="underline-none"]:hover {
 .section-heading {
   color: #aaa;
   font-size: 95%;
-}
-
-.image-label {
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  left: 0;
 }
 
 .small {
@@ -82,11 +95,15 @@ a[class*="underline-none"]:hover {
   width: 33%;
 }
 
-.culture-travel {
+.opinion div {
+  flex-basis: 72%;
+}
+
+.bg-grey {
   background: rgb(244, 245, 247);
 }
 
-.culture-travel .label {
+.label {
   background-color: #c2d4d7;
 }
 
@@ -97,4 +114,48 @@ a[class*="underline-none"]:hover {
 .sponsored-insight + .info {
   border-color: rgb(230, 230, 230);
   margin-bottom: 30px;
+}
+
+.n-logo {
+  background: url("../images/n-logo.svg") center/contain no-repeat #f72210;
+  height: 27px;
+  width: 27px;
+}
+
+[src*="black-chevron"] {
+  width: 10px;
+}
+
+.issue-20 {
+  font-size: 16px;
+}
+
+.articles-section div h5 {
+  padding-bottom: 7px;
+}
+
+.slides .n-logo {
+  width: 34px;
+  height: 33px;
+  border: 1px solid #fff;
+  box-shadow: 3px 3px #F72210;
+}
+
+.slides div h5 {
+  padding-bottom: 0;
+  margin-bottom: 3px;
+}
+
+.slides article {
+  padding-bottom: 40px;
+}
+
+.slides article p {
+  background: url("../images/slides.png") center/contain no-repeat;
+  width: 70px;
+  height: 52px;
+  left: -3px;
+  font-size: 23px;
+  padding-left: 27px;
+  padding-top: 13px;
 }
