@@ -159,3 +159,41 @@ header {
   padding-left: 27px;
   padding-top: 13px;
 }
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.subscribe-img img:last-child {
+  left: 87px;
+  top: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  width: 235px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.w-25p {
+  width: 25px;
+}
+
+.w-35p {
+  width: 35px;
+}
+
+.w-20p {
+  width: 20px;
+}
+
+.h-content {
+  height: max-content;
+}
