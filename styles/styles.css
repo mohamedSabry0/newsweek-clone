@@ -196,8 +196,8 @@ main {
   top: 14px;
 }
 
-.mb-40 {
-  margin-bottom: 40px;
+.pb-40 {
+  padding-bottom: 40px;
 }
 
 .footer-logo {
@@ -299,9 +299,27 @@ footer ul {
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:992px) {
   .w-l-25 {
     width: 25%;
   }
+  nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 70px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
 
+  .w-l-33 {
+    width: 33.3333%;
+  }
+
+  .logo img{
+    width: 400px;
+  }
 }
