@@ -35,7 +35,7 @@ Project: using-bootstrap
     <a href="https://github.com/mohamedSabry0/newsweek-clone/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/mohamedSabry0/newsweek-clone/homepage/index.html">View Demo</a>
+    <a href="https://raw.githack.com/mohamedSabry0/newsweek-clone/master/index.html">View Demo</a>
     ·
     <a href="https://github.com/mohamedSabry0/newsweek-clone/issues">Report Bug</a>
     ·
@@ -74,7 +74,7 @@ Built for Microverse following these requirements:
 and following this lesson :
 https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap 
 
-[![Product Name Screen Shot][product-screenshot]](../images/screenshot.jpg)
+[![Product Name Screen Shot][product-screenshot]](images/screenshot.jpg)
 
 ## Built With
 * (HTML5)
