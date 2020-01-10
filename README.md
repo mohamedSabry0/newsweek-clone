@@ -22,7 +22,7 @@ Project: using-bootstrap
 <br />
 <p align="center">
   <a href="https://github.com/mohamedSabry0/newsweek-clone/">
-    <img src="../images/red-logo.svg" alt="Logo" width="200">
+    <img src="images/red-logo.svg" alt="Logo" width="200">
 
   </a>
 
