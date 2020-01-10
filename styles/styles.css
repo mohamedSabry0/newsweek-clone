@@ -6,6 +6,12 @@ body {
   max-width: 1310px;
 }
 
+.header-position {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 .w-content {
   width: max-content;
 }
@@ -58,7 +64,7 @@ header {
 }
 
 .header-links > * {
-  font-size: 95%;
+  font-size: 80%;
 }
 /* change font size on >=md */
 
@@ -192,8 +198,12 @@ main {
 }
 
 .subscribe-img img:last-child {
-  left: -95px;
+  right: 0;
   top: 14px;
+}
+
+.sub-image {
+  padding-right: 50px;
 }
 
 .pb-40 {
@@ -227,7 +237,7 @@ footer ul {
 
 @media screen and (min-width:480px) {
   .header-links > * {
-    font-size: 18px;
+    font-size: 95%;
   }
 
   .subscribe-chevron {
@@ -262,7 +272,7 @@ footer ul {
     width: 33.3333% !important;
   }
 
-  .max-37 {
+  .mw-37 {
     max-width: 37%;
   }
 
@@ -300,9 +310,14 @@ footer ul {
 }
 
 @media screen and (min-width:992px) {
+  .header-position {
+    position: static;
+  }
+
   .w-l-25 {
     width: 25%;
   }
+
   nav::before {
     position: absolute;
     top: 0;
@@ -315,11 +330,20 @@ footer ul {
     border-top: 13px solid #f72210;
   }
 
-  .w-l-33 {
-    width: 33.3333%;
+  .colm1,
+  .colm3 {
+    width: 30%;
+  }
+
+  .colm2 {
+    width: 40%;
   }
 
   .logo img{
     width: 400px;
+  }
+
+  .mw-lg-100 {
+    max-width: 100%;
   }
 }
