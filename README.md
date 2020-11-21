@@ -1,4 +1,4 @@
-# newsweek-clone
+# Newsweek
 
 ## Seventh Microverse Project
 
@@ -58,7 +58,7 @@ Project: using-bootstrap
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Built for Microverse following these requirements:
+Built following these requirements:
 #### requirment 1
 - [x] create media query for desktop (width > 992px)
 - [x] align the sections using flex and bootstrap grid for some sections to get        the same layout
@@ -77,9 +77,9 @@ https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
 [![Product Name Screen Shot][product-screenshot]](images/screenshot.jpg)
 
 ## Built With
-* (HTML5)
-* (CSS3)
-* Bootstrap 4 framework
+* HTML5
+* CSS3
+* Bootstrap 4
 
 <!-- LICENSE -->
 ## License
